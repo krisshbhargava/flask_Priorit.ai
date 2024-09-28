@@ -28,3 +28,7 @@
 /Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/obj/Debug/net8.0/Priorit.ai.pdb
 /Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/obj/Debug/net8.0/Priorit.ai.genruntimeconfig.cache
 /Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/obj/Debug/net8.0/ref/Priorit.ai.dll
+/Users/shreyachakraborty/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/Priorit.ai.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreyachakraborty/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/Priorit.ai.dll
+/Users/shreyachakraborty/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/refint/Priorit.ai.dll
+/Users/shreyachakraborty/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/Priorit.ai.pdb

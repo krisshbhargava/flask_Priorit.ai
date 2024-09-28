@@ -18,7 +18,7 @@
                 <form action="/submit" method="post">
                     <!-- Name Field -->
                     <label for="name">Student ID:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <input type="text" id="name" name="name" placeholder="Enter your student ID" required>
                     
                     <!-- Building Dropdown -->
                     <label for="building">Building:</label>
@@ -79,8 +79,16 @@
                     <p><strong>Please use this form to report any issues in the following categories:</strong></p>
                     <ul>
                         <li>Kitchen & Bath</li>
-                        <li>Lighting & Electrical</li>
+                        <li>Safety & Electrical</li>
+                            <ul>
+                                <li>Includes any issues with fire alarms, mold, HVAC unit.</li>
+                            </ul>
                         <li>Pest Control</li>
+                        <li>General Maintenance</li>
+                            <ul>
+                                <li>This includes key/lock issues, wall damage, and bed lofting.</li>
+                            </ul>
+                        <li>Heating and Cooling</li>
                     </ul>
                     <p>Please put some detail into your maintenence issue description, as <strong>we will run your description through our algorithm, which will add your request to a priority queue based on our estimated urgency of your issue.</strong> Please be aware that if your maintenence request does not have enough information for our system to categorize it, we may reach out to you for clarifying information/images.</p>
                     <hr>

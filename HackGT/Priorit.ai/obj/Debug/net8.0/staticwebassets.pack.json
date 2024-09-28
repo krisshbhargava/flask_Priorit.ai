@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/wwwroot/images/hero.jpg",
+      "PackagePath": "staticwebassets/images/hero.jpg"
+    },
+    {
       "Id": "/Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/wwwroot/images/prioritlogo.png",
       "PackagePath": "staticwebassets/images/prioritlogo.png"
     },

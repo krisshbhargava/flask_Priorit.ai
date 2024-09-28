@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i43iwgHj2IczVGnuFNfsB6tubkjkGs3BF79h63ZJ0ZA=",
+  "Hash": "K5sSAQhxU1O3Z9jhazqpWDsaYU1+hESUWP4qCVIUUI4=",
   "Source": "Priorit.ai",
   "BasePath": "_content/Priorit.ai",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/wwwroot/images/hero.jpg",
+      "SourceId": "Priorit.ai",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/wwwroot/",
+      "BasePath": "_content/Priorit.ai",
+      "RelativePath": "images/hero.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/hero.jpg"
     },
     {
       "Identity": "/Users/shreyachakraborty/Desktop/HackGT/Priorit.ai/wwwroot/images/prioritlogo.png",
