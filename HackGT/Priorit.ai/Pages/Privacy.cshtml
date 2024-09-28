@@ -1,24 +1,29 @@
 ﻿@page
+@using System.Diagnostics
+
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Maintenence Request";
+    ViewData["Title"] = "Maintenance Request";
 }
+
 <head>
     <style>
         p {
             font-family: 'Helvetica', sans-serif;
         }
     </style>
+    <script src="https://cdn.tiny.cloud/1/3qk59rf45gnkq8w603v3qltvhuz58p0b0f9v7qr1ozpseh8q/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 <body>
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-6">
-                <h2>Maintenence Request Form</h2>
-                <form action="/submit" method="post">
+                <h2>Maintenance Request Form</h2>
+                <form method="post" id="maintenanceForm" asp-page="/Privacy">
+                    @Html.AntiForgeryToken()
                     <!-- Name Field -->
                     <label for="student_id">Student ID:</label>
-                    <input type="text" id="student id" name="student_id" placeholder="Enter your student ID" required>
+                    <input type="text" id="student_id" name="student_id" placeholder="Enter your student ID" required>
                     
                     <!-- Building Dropdown -->
                     <label for="building">Building:</label>
@@ -60,9 +65,7 @@
 
                     <!-- Description Textbox -->
                     <label for="description">Description:</label>
-                    <textarea id="tiny" name="description" rows="4" placeholder="Enter a description" required></textarea>
-                    
-                    <p></p>
+                    <textarea id="tiny" name="description" required></textarea>
 
                     <!-- Submit Button -->
                     <button type="submit">Submit</button>
@@ -72,29 +75,79 @@
             <div class="col-md-6">
                 <h2>Information</h2>
                 <div class="info">
-                    <p><strong>Fill out the following form for any maintenence requests and issues you may have in your dorm room/apartment.</strong> You may also attach image and media links, if necessary, in the description box.</p>
+                    <p><strong>Fill out the following form for any maintenance requests and issues you may have in your dorm room/apartment.</strong> You may also attach image and media links, if necessary, in the description box.</p>
                     <hr>
                     <img src="~/images/workers.jpg" alt="Workers" class="img-fluid d-block mx-auto">
                     <p></p>
                     <p><strong>Please use this form to report any issues in the following categories:</strong></p>
                     <ul>
                         <li>Kitchen & Bath</li>
-                        <li>Safety & Electrical</li>
+                        <li>Safety & Electrical
                             <ul>
                                 <li>Includes any issues with fire alarms, mold, HVAC unit.</li>
                             </ul>
+                        </li>
                         <li>Pest Control</li>
-                        <li>General Maintenance</li>
+                        <li>General Maintenance
                             <ul>
                                 <li>This includes key/lock issues, wall damage, and bed lofting.</li>
                             </ul>
+                        </li>
                         <li>Heating and Cooling</li>
                     </ul>
-                    <p>Please put some detail into your maintenence issue description, as <strong>we will run your description through our algorithm, which will add your request to a priority queue based on our estimated urgency of your issue.</strong> Please be aware that if your maintenence request does not have enough information for our system to categorize it, we may reach out to you for clarifying information/images.</p>
+                    <p>Please put some detail into your maintenance issue description, as <strong>we will run your description through our algorithm, which will add your request to a priority queue based on our estimated urgency of your issue.</strong> Please be aware that if your maintenance request does not have enough information for our system to categorize it, we may reach out to you for clarifying information/images.</p>
                     <hr>
-                    <p><strong>For emergency maintenence cases, please fill out this form and call +1 234-567-8910 immediately.</strong></p>
+                    <p><strong>For emergency maintenance cases, please fill out this form and call +1 234-567-8910 immediately.</strong></p>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            tinymce.init({
+                selector: '#tiny',
+                setup: function (editor) {
+                    editor.on('change', function () {
+                        editor.save(); // Save content to the textarea when changed
+                    });
+                }
+            });
+
+            document.getElementById('maintenanceForm').addEventListener('submit', function() {
+                tinyMCE.triggerSave(); // Ensure TinyMCE content is saved to the textarea before submission
+            });
+        });
+    </script>
 </body>
+
+@functions {
+    public IActionResult OnPost()
+    {
+        // Get form input values
+        var category = Request.Form["category"];
+        var description = Request.Form["description"];
+
+        // Create a new process to run the Python script
+        var process = new Process
+        {
+            StartInfo = new ProcessStartInfo
+            {
+                FileName = "python",  // Path to Python executable
+                Arguments = $"finalmodel.py \"{category}\" \"{description}\"", // Replace with actual path to your script
+                RedirectStandardOutput = true,
+                UseShellExecute = false,
+                CreateNoWindow = true,
+            }
+        };
+
+        process.Start();
+        string result = process.StandardOutput.ReadToEnd();
+        process.WaitForExit();
+
+        // Use the result as needed (e.g., display in the view)
+        ViewData["Result"] = result;
+
+        return Page();
+    }
+}

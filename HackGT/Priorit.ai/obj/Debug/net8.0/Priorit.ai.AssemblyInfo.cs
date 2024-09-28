@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Priorit.ai")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+245dcc424a5deb30125d71167792e697774fe829")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16d47f9d8d539c8d43df451d0fc1b8d1d4feea32")]
 [assembly: System.Reflection.AssemblyProductAttribute("Priorit.ai")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Priorit.ai")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

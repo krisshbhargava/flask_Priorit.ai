@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lFEnFGPoCkFBu+w9scZ1nREBSedFPo/cQoDTAwLzLF4=",
+  "Hash": "P7TJJwz6kzqxV5ryu//CbpsS3oStIHkt7QnnxHzYPMo=",
   "Source": "Priorit.ai",
   "BasePath": "_content/Priorit.ai",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Priorit.ai/wwwroot",
       "Source": "Priorit.ai",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/bundle/Priorit.ai.styles.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/bundle/Priorit.ai.styles.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "Priorit.ai.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/bundle/Priorit.ai.styles.css"
+      "OriginalItemSpec": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/bundle/Priorit.ai.styles.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/projectbundle/Priorit.ai.bundle.scp.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/projectbundle/Priorit.ai.bundle.scp.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "Priorit.ai.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/projectbundle/Priorit.ai.bundle.scp.css"
+      "OriginalItemSpec": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/obj/Debug/net8.0/scopedcss/projectbundle/Priorit.ai.bundle.scp.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/css/site.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/css/site.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/favicon.ico",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/favicon.ico",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/images/hero.jpg",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/images/fast.png",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
+      "BasePath": "_content/Priorit.ai",
+      "RelativePath": "images/fast.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/fast.png"
+    },
+    {
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/images/hero.jpg",
+      "SourceId": "Priorit.ai",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "images/hero.jpg",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/images/hero.jpg"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/images/prioritlogo.png",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/images/prioritlogo.png",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "images/prioritlogo.png",
       "AssetKind": "All",
@@ -131,10 +150,48 @@
       "OriginalItemSpec": "wwwroot/images/prioritlogo.png"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/images/workers.jpg",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/images/priority.png",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
+      "BasePath": "_content/Priorit.ai",
+      "RelativePath": "images/priority.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/priority.png"
+    },
+    {
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/images/progress.png",
+      "SourceId": "Priorit.ai",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
+      "BasePath": "_content/Priorit.ai",
+      "RelativePath": "images/progress.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/progress.png"
+    },
+    {
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/images/workers.jpg",
+      "SourceId": "Priorit.ai",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "images/workers.jpg",
       "AssetKind": "All",
@@ -150,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/images/workers.jpg"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/js/site.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/js/site.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -169,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -188,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -207,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -226,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -245,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -264,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -283,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -302,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -321,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -340,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -359,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -378,10 +435,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -397,10 +454,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -416,10 +473,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -435,10 +492,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -454,10 +511,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,10 +530,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -492,10 +549,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -511,10 +568,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -530,10 +587,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -549,10 +606,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -568,10 +625,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -587,10 +644,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -606,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -625,10 +682,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -644,10 +701,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -663,10 +720,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -682,10 +739,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -701,10 +758,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -720,10 +777,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -739,10 +796,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -758,10 +815,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -777,10 +834,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -796,10 +853,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -815,10 +872,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -834,10 +891,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -853,10 +910,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -872,10 +929,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -891,10 +948,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -910,10 +967,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -929,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -948,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -967,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -986,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1005,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1024,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1043,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1062,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1081,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1100,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1119,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1138,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1157,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1176,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1195,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1214,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1233,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Priorit.ai",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/wwwroot/",
+      "ContentRoot": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/wwwroot/",
       "BasePath": "_content/Priorit.ai",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
