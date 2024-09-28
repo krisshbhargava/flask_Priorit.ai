@@ -1,4 +1,10 @@
-request,urgency level
-roach infestation,6
-sewage situation,8
-bed lofting,3
+descriptor,item
+bunch of insects all around,pest
+flooded bathroom,sewage
+increase bed height,loft
+cockroaches on bed,pest
+bathroom pipe broken,sewage
+lower bed height,loft
+bees through window,pest
+sink leakage,sewage
+bed shaky end,loft
