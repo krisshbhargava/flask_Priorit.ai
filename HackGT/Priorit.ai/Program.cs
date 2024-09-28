@@ -1,5 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls("http://localhost:5111");
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 
@@ -25,7 +27,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 // Define your custom endpoint for form submission
-app.MapPost("/submit", async context =>
+app.MapPost("/submit", async (HttpContext context, ILogger<Program> logger) =>
 {
     var form = await context.Request.ReadFormAsync();
     
@@ -34,13 +36,11 @@ app.MapPost("/submit", async context =>
     var category = form["category"];
     var description = form["description"];
 
-    // Here you can process the data as needed
-    // For example, log the data or call a Python function
-
-    Console.WriteLine($"Student ID: {studentId}");
-    Console.WriteLine($"Building: {building}");
-    Console.WriteLine($"Category: {category}");
-    Console.WriteLine($"Description: {description}");
+    // Log the form data
+    logger.LogInformation($"Student ID: {studentId}");
+    logger.LogInformation($"Building: {building}");
+    logger.LogInformation($"Category: {category}");
+    logger.LogInformation($"Description: {description}");
 
     // Redirect after processing the form
     context.Response.Redirect("/Index"); // Or redirect to any other page

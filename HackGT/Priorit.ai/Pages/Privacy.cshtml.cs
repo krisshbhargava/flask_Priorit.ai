@@ -41,7 +41,7 @@ public class PrivacyModel : PageModel
 
             
         // Return a view or redirect
-        return Redirect("/Index"); // Or any other page
+        return Redirect("/Success"); // Or any other page
     }
 }
 

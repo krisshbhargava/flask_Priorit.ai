@@ -65,7 +65,9 @@
 
                     <!-- Description Textbox -->
                     <label for="description">Description:</label>
-                    <textarea id="tiny" name="description" required></textarea>
+                    <textarea id="tiny" name="description"></textarea>
+                    
+                    <p></p>
 
                     <!-- Submit Button -->
                     <button type="submit">Submit</button>
@@ -102,9 +104,9 @@
             </div>
         </div>
     </div>
-
-    <script>
+    @* <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Initialize TinyMCE
             tinymce.init({
                 selector: '#tiny',
                 setup: function (editor) {
@@ -114,11 +116,19 @@
                 }
             });
 
-            document.getElementById('maintenanceForm').addEventListener('submit', function() {
-                tinyMCE.triggerSave(); // Ensure TinyMCE content is saved to the textarea before submission
-            });
+            // Get the maintenanceForm element
+            const maintenanceForm = document.getElementById('maintenanceForm');
+            
+            // Check if maintenanceForm exists before attaching the event listener
+            if (maintenanceForm) {
+                maintenanceForm.addEventListener('submit', function(event) {
+                    tinyMCE.triggerSave(); // Ensure TinyMCE content is saved to the textarea before submission
+                });
+            } else {
+                console.error('Element with ID "maintenanceForm" not found.');
+            }
         });
-    </script>
+    </script> *@
 </body>
 
 @functions {
