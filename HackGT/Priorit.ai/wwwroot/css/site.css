@@ -1,0 +1,103 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ffca84; /* Background color */
+  color: white;              /* Text color */
+  padding: 10px 20px;        /* Vertical and horizontal padding */
+  border: none;              /* Remove default border */
+  border-radius: 4px;       /* Rounded corners */
+  cursor: pointer;           /* Change cursor on hover */
+  font-size: 1rem;           /* Font size */
+  font-weight: bold;         /* Bold text */
+  transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+button:hover {
+  background-color: #d5b98a;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2rem;            
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.info {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 30px;
+}
+
+select {
+  font-family: 'Helvetica', sans-serif;  /* Set the font to Helvetica */
+  font-size: 1rem;                      /* Adjust the font size as needed */
+  padding: 0.5rem;                      /* Add some padding for better spacing */
+  border: 1px solid #ccc;               /* Optional: style the border */
+  border-radius: 4px;                   /* Optional: add rounded corners */
+  background-color: #fff;               /* Set background color */
+}
+
+/* Optional: Style the other form elements */
+input[type="text"], textarea {
+  font-family: 'Helvetica', sans-serif;  /* Set the font to Helvetica */
+  font-size: 1rem;                       /* Adjust the font size */
+  padding: 0.5rem;                       /* Add some padding */
+  border: 1px solid #ccc;                /* Style the border */
+  border-radius: 4px;                    /* Add rounded corners */
+  background-color: #fff;                /* Set background color */
+}
+
+p {
+  font-family: 'Helvetica', sans-serif;
+}
