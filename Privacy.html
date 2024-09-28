@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        p {
+            font-family: 'Helvetica', sans-serif;
+        }
+    </style>
+    <link href="site.css" rel="stylesheet">
+    <script src="https://cdn.tiny.cloud/1/3qk59rf45gnkq8w603v3qltvhuz58p0b0f9v7qr1ozpseh8q/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Maintenance Request Form</h2>
+                <form method="post" id="maintenanceForm" asp-page="/Privacy">
+                    <!-- Name Field -->
+                    <label for="student_id">Student ID:</label>
+                    <input type="text" id="student_id" name="student_id" placeholder="Enter your student ID" required>
+                    
+                    <!-- Building Dropdown -->
+                    <label for="building">Building:</label>
+                    <select id="building" name="building" required>
+                        <option value="">--Select Building--</option>
+                        <option value="smith">Smith</option>
+                        <option value="brown">Brown</option>
+                        <option value="harris">Harris</option>
+                        <option value="howell">Howell</option>
+                        <option value="cloudman">Cloudman</option>
+                        <option value="harrison">Harrison</option>
+                        <option value="glenn/towers">Glenn/Towers</option>
+                        <option value="hanson">Hanson</option>
+                        <option value="fitten">Fitten</option>
+                        <option value="freeman/montag">Freeman/Montag</option>
+                        <option value="hefner/armstrong">Hefner/Armstrong</option>
+                        <option value="fulmer">Fulmer</option>
+                        <option value="eighth-street">Eighth Street</option>
+                        <option value="grad/fam">Grad/Fam</option>
+                        <option value="crecine">Crecine</option>
+                        <option value="center-street">Center Street</option>
+                        <option value="nav">Nav</option>
+                        <option value="nelson-shell">Nelson Shell</option>
+                        <option value="maulding">Maulding</option>
+                        <option value="zbar">Zbar</option>
+                        <option value="matheson/perry">Matheson/Perry</option>
+                        <option value="folk/caldwell">Folk/Caldwell</option>
+                        <option value="woodruff">Woodruff</option>
+                    </select>
+
+                    <!-- Category Dropdown -->
+                    <label for="category">Category:</label>
+                    <select id="category" name="category" required>
+                        <option value="">--Select Category--</option>
+                        <option value="maintenance">Kitchen & Bath</option>
+                        <option value="cleaning">Lighting & Electrical</option>
+                        <option value="security">Pest Control</option>
+                    </select>
+
+                    <!-- Description Textbox -->
+                    <label for="description">Description:</label>
+                    <textarea id="tiny" name="description" required></textarea>
+
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Information</h2>
+                <div class="info">
+                    <p><strong>Fill out the following form for any maintenance requests and issues you may have in your dorm room/apartment.</strong> You may also attach image and media links, if necessary, in the description box.</p>
+                    <hr>
+                    <img src="~/images/workers.jpg" alt="Workers" class="img-fluid d-block mx-auto">
+                    <p></p>
+                    <p><strong>Please use this form to report any issues in the following categories:</strong></p>
+                    <ul>
+                        <li>Kitchen & Bath</li>
+                        <li>Safety & Electrical
+                            <ul>
+                                <li>Includes any issues with fire alarms, mold, HVAC unit.</li>
+                            </ul>
+                        </li>
+                        <li>Pest Control</li>
+                        <li>General Maintenance
+                            <ul>
+                                <li>This includes key/lock issues, wall damage, and bed lofting.</li>
+                            </ul>
+                        </li>
+                        <li>Heating and Cooling</li>
+                    </ul>
+                    <p>Please put some detail into your maintenance issue description, as <strong>we will run your description through our algorithm, which will add your request to a priority queue based on our estimated urgency of your issue.</strong> Please be aware that if your maintenance request does not have enough information for our system to categorize it, we may reach out to you for clarifying information/images.</p>
+                    <hr>
+                    <p><strong>For emergency maintenance cases, please fill out this form and call +1 234-567-8910 immediately.</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
