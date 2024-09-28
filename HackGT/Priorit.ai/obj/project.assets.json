@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/krisshbhargava/.nuget/packages/": {}
+    "/Users/shreyachakraborty/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/Priorit.ai.csproj",
+      "projectUniqueName": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/Priorit.ai.csproj",
       "projectName": "Priorit.ai",
-      "projectPath": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/Priorit.ai.csproj",
-      "packagesPath": "/Users/krisshbhargava/.nuget/packages/",
-      "outputPath": "/Users/krisshbhargava/Desktop/Priorit.ai/HackGT/Priorit.ai/obj/",
+      "projectPath": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/Priorit.ai.csproj",
+      "packagesPath": "/Users/shreyachakraborty/.nuget/packages/",
+      "outputPath": "/Users/shreyachakraborty/Desktop/Priorit.ai-1/HackGT/Priorit.ai/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/krisshbhargava/.nuget/NuGet/NuGet.Config"
+        "/Users/shreyachakraborty/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
