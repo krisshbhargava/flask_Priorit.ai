@@ -250,3 +250,11 @@ body {
       padding: 12px 24px;
   }
 }
+
+.navbar {
+  margin-bottom: 20px; /* Space below the navbar */
+}
+
+.navbar-brand img {
+  height: 40px; /* Logo height */
+}

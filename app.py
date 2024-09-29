@@ -11,6 +11,7 @@ CORS(app)
 def index():
     return render_template('index.html')
 
+
 @app.route('/maintenance-request', methods=['GET', 'POST'])
 def maintenance_request():
     if request.method == 'POST':
