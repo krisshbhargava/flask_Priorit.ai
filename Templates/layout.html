@@ -10,27 +10,6 @@
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-   <script src="https://cdn.tiny.cloud/1/hzpx0lw2yygr5l1lcd3u64bw1gj5tjf6i3x9xt1fwzlucfhv/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
-   <script>
-       tinymce.init({
-         selector: 'textarea',
-         plugins: [
-           // Core editing features
-           'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
-           // Your account includes a free trial of TinyMCE premium features
-           // Try the most popular premium features until Oct 11, 2024:
-           'checklist', 'mediaembed', 'casechange', 'export', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown',
-         ],
-         toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
-         tinycomments_mode: 'embedded',
-         tinycomments_author: 'Author name',
-         mergetags_list: [
-           { value: 'First.Name', title: 'First Name' },
-           { value: 'Email', title: 'Email' },
-         ],
-         ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
-       });
-   </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -71,8 +50,8 @@
 
    {% block content %}{% endblock %}
 
-   <footer style="background-color: #333; color: white; padding: 20px 0; text-align: center;">
-       <p>&copy; 2024 Maintenance Manager | Contact Us: +1 234-567-8910</p>
+   <footer style="background-color: #000; color: #FFCA84; padding: 20px 0; text-align: center;">
+       <p>&copy; 2024 Maintenance Manager | Contact Us: +1 914-314-0150</p>
    </footer>
 </body>
 </html>

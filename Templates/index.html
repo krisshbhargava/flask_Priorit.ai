@@ -3,14 +3,15 @@
 {% block title %}Home Page{% endblock %}
 
 {% block content %}
-    <div class="hero" style="height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative;">
+    <!-- Hero Section -->
+    <div class="hero fade-in-section" style="height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative;">
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000000;"></div>
         <div class="hero-content" style="color: white; z-index: 1;">
             <h1 style="font-size: 3rem; font-family: 'Helvetica', sans-serif; font-weight: bold;">Welcome to Maintenance Manager</h1>
             <p style="font-size: 1.5rem; color:#FFCA84;">Easily report and track maintenance issues in your dorm or apartment</p>
 
             {% if session.get('user') %}
-                <p>Welcome, {{ session['user']['userinfo']['name'] if 'userinfo' in session['user'] else 'User' }}!</p>
+                <p>Hello, {{ session['user']['userinfo']['name'] if 'userinfo' in session['user'] else 'User' }}!</p>
                 <br>
                 <a href="{{ url_for('maintenance_request') }}" class="btn" style="font-size: 1.2rem; padding: 10px 20px; background-color: #FFCA84; color: black;">Get Started</a>
                 <a href="{{ url_for('logout') }}" class="btn btn-secondary" style="font-size: 1.2rem; padding: 10px 20px; background-color: #FFCA84; color: black;">Logout</a>
@@ -20,39 +21,77 @@
         </div>
     </div>
 
-    <section style="padding: 50px 0; text-align: center;">
-        <h2 style="font-family: 'Helvetica', sans-serif; font-size: 2.5rem; font-weight: bold; color: #333;">Effortlessly Manage Your Maintenance Requests</h2>
-        <p style="max-width: 800px; margin: 20px auto; font-size: 1.2rem; color: #666;">
+    <!-- Overview Section -->
+    <section class="fade-in-section" style="padding: 225px 0; text-align: center; background-color: #f7f7f7;">
+        <h2 style="font-family: 'Helvetica', sans-serif; font-size: 2.5rem; font-weight: bold; color: #333;">
+            Effortlessly Manage Your Maintenance Requests
+        </h2>
+        <p style="max-width: 800px; margin: 20px auto; font-size: 1.2rem; color: #555;">
             Our app helps students quickly submit maintenance requests, track their progress, and ensure that their dormitories or apartments are well-maintained.
         </p>
     </section>
+    
 
-    <!-- Modified Features Section -->
-    <section id="features" style="background-color: #f9f9f9; padding: 50px 0;">
+    <!-- Features Section -->
+    <section id="features" class="fade-in-section" style="background-color: #000; padding: 225px 0; text-align: center;">
         <div class="container">
-            <h2 style="text-align: center; font-family: 'Helvetica', sans-serif; font-size: 2.5rem;">Key Features & Functionalities</h2>
-            <hr>
+            <h2 style="font-family: 'Helvetica', sans-serif; font-size: 2.5rem; font-weight: bold; color: #FFCA84;">Key Features & Functionalities</h2>
+            <hr style="border-top: 2px solid #FFCA84; width: 60px; margin: 20px auto;">
             <div class="row d-flex justify-content-around">
                 <!-- Feature 1: Fast Reporting -->
                 <div class="col-md-3 text-center">
-                    <img src="{{ url_for('static', filename='images/fast.png') }}" alt="Fast Reporting" style="width: 100px;">
-                    <h4>Fast Reporting</h4>
-                    <p>Submit maintenance requests quickly with a clear and concise form.</p>
+                    <img src="{{ url_for('static', filename='images/fast.png') }}" alt="Fast Reporting" style="width: 100px; margin-bottom: 20px;">
+                    <h4 style="color: #FFCA84;">Fast Reporting</h4>
+                    <p style="color: #FFF;">Submit maintenance requests quickly with a clear and concise form.</p>
                 </div>
                 <!-- Feature 2: Priority Queue -->
                 <div class="col-md-3 text-center">
-                    <img src="{{ url_for('static', filename='images/priority.png') }}" alt="Priority Queue" style="width: 100px;">
-                    <h4>Priority Queue</h4>
-                    <p>Our algorithm ensures urgent issues are handled first.</p>
+                    <img src="{{ url_for('static', filename='images/priority.png') }}" alt="Priority Queue" style="width: 100px; margin-bottom: 20px;">
+                    <h4 style="color: #FFCA84;">Priority Queue</h4>
+                    <p style="color: #FFF;">Our algorithm ensures urgent issues are handled first.</p>
                 </div>
                 <!-- Feature 3: Track Progress -->
                 <div class="col-md-3 text-center">
-                    <img src="{{ url_for('static', filename='images/progress.png') }}" alt="Track Progress" style="width: 100px;">
-                    <h4>Track Progress</h4>
-                    <p>Get real-time updates on your requests with our tracking system.</p>
+                    <img src="{{ url_for('static', filename='images/progress.png') }}" alt="Track Progress" style="width: 100px; margin-bottom: 20px;">
+                    <h4 style="color: #FFCA84;">Track Progress</h4>
+                    <p style="color: #FFF;">Get real-time updates on your requests with our tracking system.</p>
                 </div>
             </div>
         </div>
-     </section>
-
+    </section>
 {% endblock %}
+
+<!-- CSS for fade-in animation -->
+<style>
+    .fade-in-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    }
+    
+    .is-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>
+
+<!-- JavaScript for adding fade-in effect when scrolling -->
+<script>
+    const fadeInSections = document.querySelectorAll('.fade-in-section');
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const fadeInObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    fadeInSections.forEach(section => {
+        fadeInObserver.observe(section);
+    });
+</script>
