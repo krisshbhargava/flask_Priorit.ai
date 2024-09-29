@@ -259,6 +259,7 @@ button:active {
  
  .navbar {
   margin-bottom: 20px; /* Space below the navbar */
+  background-color: #fff;
  }
  
  .navbar-brand img {

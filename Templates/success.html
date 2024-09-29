@@ -1,13 +1,75 @@
-<!-- templates/success.html -->
 {% extends 'layout.html' %}
 
 {% block title %}Success{% endblock %}
 
 {% block content %}
-<div class="container mt-4">
-    <h2>Your maintenance request has been submitted successfully!</h2>
-    <p>Thank you for your submission. We will process your request shortly.</p>
-    <a href="{{ url_for('maintenance_request') }}" class="btn btn-primary">Back to Maintenance Request</a>
-    <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Homepage</a>
+<div class="container mt-4" style="text-align: center; color: white;">
+    <h2 style="color: white; margin-bottom: 20px;">Your maintenance request has been submitted successfully!</h2>
+    <p style="color: #FFCA84; font-size: 1.2rem; margin-bottom: 30px;">Thank you for your submission. We will process your request shortly.</p>
+    
+    <div class="button-group" style="margin-top: 20px;">
+        <a href="{{ url_for('maintenance_request') }}" class="btn custom-btn" style="margin-right: 10px;">Back to Maintenance Request</a>
+        <a href="{{ url_for('index') }}" class="btn custom-btn-secondary" style="margin-left: 10px;">Back to Homepage</a>
+    </div>
 </div>
+
+<!-- Custom CSS for Success Page -->
+<style>
+    body {
+        background-color: #000;
+        color: white;
+    }
+
+    h2 {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #FFCA84;
+        margin-bottom: 30px;
+    }
+
+    .btn.custom-btn {
+        background-color: #FFCA84;
+        color: black;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border-radius: 6px;
+        border: none;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn.custom-btn:hover {
+        background-color: #e6b875;
+        transform: translateY(-3px);
+    }
+
+    .btn.custom-btn-secondary {
+        background-color: #222;
+        color: white;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border-radius: 6px;
+        border: 1px solid #FFCA84;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn.custom-btn-secondary:hover {
+        background-color: #333;
+        transform: translateY(-3px);
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: center;
+    }
+</style>
 {% endblock %}

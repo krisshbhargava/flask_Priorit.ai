@@ -1,4 +1,3 @@
-<!-- templates/maintenance_request.html -->
 {% extends 'layout.html' %}
 
 {% block title %}Maintenance Request{% endblock %}
@@ -7,8 +6,8 @@
 <div class="container mt-4">
     <section style="padding: 30px 0; text-align: center;">
         <div class="form-heading">
-            <h2 class="form-title">Submit a Maintenance Request</h2>
-            <p class="form-subtitle">Let us know what's wrong, and we'll handle it from here!</p>
+            <h2 class="form-title" style="color: white;">Submit a Maintenance Request</h2>
+            <p class="form-subtitle" style="color: #FFCA84;">Let us know what's wrong, and we'll handle it from here!</p>
         </div>
     </section>
 
@@ -16,10 +15,10 @@
         <!-- Information Section -->
         <div class="row justify-content-center mt-20">
             <div class="col-lg-8">
-                <div class="info p-4">
-                    <h4>Form Information</h4>
+                <div class="info p-4" style="background-color: #111; color: white;">
+                    <h4 style="color: white;">Form Information</h4>
                     <p><strong>Fill out the following form for any maintenance requests and issues you may have in your dorm room/apartment.</strong> You may also attach image and media links, if necessary, in the description box.</p>
-                    <hr>
+                    <hr style="border-top: 1px solid #FFCA84;">
                     <p><strong>Please use this form to report any issues in the following categories:</strong></p>
                     <ul>
                         <li>Kitchen & Bath</li>
@@ -36,9 +35,9 @@
                         </li>
                         <li>Heating and Cooling</li>
                     </ul>
-                    <p><strong>Note:</strong> Please put some detail into your maintenance issue description, as <strong>we will run your description through our algorithm, which will add your request to a priority queue based on our estimated urgency of your issue.</strong> If your maintenance request lacks sufficient information for our system to categorize it, we may reach out to you for clarifying information or images.</p>
-                    <hr>
-                    <p><strong>For emergency maintenance cases, please fill out this form and call +1 234-567-8910 immediately.</strong></p>
+                    <p><strong>Note:</strong> Please put some detail into your maintenance issue description, as <strong>we will run your description through our algorithm, which will add your request to a priority queue based on our estimated urgency of your issue.</strong> If your maintenance request lacks sufficient information for our system to categorize it, we may reach out to you for clarifying information or images. If you are redirected back to this form after your request, your initial ask did not process and you will need to try again with a different description.</p>
+                    <hr style="border-top: 1px solid #FFCA84;">
+                    <p><strong>For emergency maintenance cases, please fill out this form and call +1 914-314-0150 immediately.</strong></p>
                 </div>
             </div>
         </div>
@@ -46,48 +45,29 @@
         <!--Form Section-->
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <form method="post" id="maintenanceForm" action="{{ url_for('maintenance_request') }}">
+                <form method="post" id="maintenanceForm" action="{{ url_for('maintenance_request') }}" style="background-color: #111; color: white; padding: 20px; border-radius: 8px;">
                     <!-- Student ID Field -->
                     <div class="form-group">
-                        <label for="student_id">Student ID:</label>
-                        <input type="text" id="student_id" name="student_id" class="form-control" placeholder="Enter your student ID" required>
+                        <label for="student_id" style="color: #FFCA84;">Student ID:</label>
+                        <input type="text" id="student_id" name="student_id" class="form-control" placeholder="Enter your student ID" required style="background-color: #222; color: white; border: 1px solid #FFCA84;">
                     </div>
 
                     <!-- Building Dropdown -->
                     <div class="form-group">
-                        <label for="building">Building:</label>
-                        <select id="building" name="building" class="form-control" required>
+                        <label for="building" style="color: #FFCA84;">Building:</label>
+                        <select id="building" name="building" class="form-control" required style="background-color: #222; color: white; border: 1px solid #FFCA84;">
                             <option value="">--Select Building--</option>
                             <option value="smith">Smith</option>
                             <option value="brown">Brown</option>
                             <option value="harris">Harris</option>
-                            <option value="howell">Howell</option>
-                            <option value="cloudman">Cloudman</option>
-                            <option value="harrison">Harrison</option>
-                            <option value="glenn/towers">Glenn/Towers</option>
-                            <option value="hanson">Hanson</option>
-                            <option value="fitten">Fitten</option>
-                            <option value="freeman/montag">Freeman/Montag</option>
-                            <option value="hefner/armstrong">Hefner/Armstrong</option>
-                            <option value="fulmer">Fulmer</option>
-                            <option value="eighth-street">Eighth Street</option>
-                            <option value="grad/fam">Grad/Fam</option>
-                            <option value="crecine">Crecine</option>
-                            <option value="center-street">Center Street</option>
-                            <option value="nav">Nav</option>
-                            <option value="nelson-shell">Nelson Shell</option>
-                            <option value="maulding">Maulding</option>
-                            <option value="zbar">Zbar</option>
-                            <option value="matheson/perry">Matheson/Perry</option>
-                            <option value="folk/caldwell">Folk/Caldwell</option>
-                            <option value="woodruff">Woodruff</option>
+                            <!-- Add other options here -->
                         </select>
                     </div>
 
                     <!-- Category Dropdown -->
                     <div class="form-group">
-                        <label for="category">Category:</label>
-                        <select id="category" name="category" class="form-control" required>
+                        <label for="category" style="color: #FFCA84;">Category:</label>
+                        <select id="category" name="category" class="form-control" required style="background-color: #222; color: white; border: 1px solid #FFCA84;">
                             <option value="">--Select Category--</option>
                             <option value="kitchenDF">Kitchen & Bath</option>
                             <option value="electricalDF">Safety & Electrical</option>
@@ -98,16 +78,13 @@
 
                     <!-- Description Textbox -->
                     <div class="form-group">
-                        <label for="description">Describe the issue:</label>
-                        <textarea id="description" name="description" class="form-control" placeholder="Describe the issue you're experiencing..." required></textarea>
+                        <label for="description" style="color: #FFCA84;">Describe the issue:</label>
+                        <textarea id="description" name="description" class="form-control" placeholder="Describe the issue you're experiencing..." required style="background-color: #222; color: white; border: 1px solid #FFCA84;"></textarea>
                     </div>
 
                     <!-- Submit Button -->
                     <div class="form-button text-center">
                         <button type="submit" class="btn custom-btn">Submit Request</button>
-                    </div>
-                    <div>
-                        <p></p>
                     </div>
                 </form>
             </div>
@@ -117,15 +94,9 @@
 
 <style>
     /* Global Styles */
-    html {
-        font-size: 16px;
-        font-family: 'Lato', sans-serif;
-    }
-
     body {
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
+        background-color: #000;
+        color: white;
     }
 
     /* Form Heading Styles */
@@ -135,70 +106,67 @@
     }
 
     .form-title {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Helvetica', sans-serif;
         font-size: 2.5rem;
-        color: #333;
+        color: white; /* Header in white */
         margin-bottom: 10px;
         font-weight: 700;
     }
 
     .form-subtitle {
         font-size: 1.3rem;
-        color: #555;
+        color: #FFCA84;
         margin-bottom: 20px;
         font-weight: 300;
     }
 
     /* Info Section Styles */
     .info {
-        background-color: #fff;
+        background-color: #111;
         border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 30px;
         margin-bottom: 30px;
-        font-family: 'Lato', sans-serif;
     }
 
     .info h4 {
         font-size: 1.8rem;
         font-weight: 600;
-        color: #333;
+        color: white; /* Keep header white */
         margin-bottom: 20px;
     }
 
     .info p, .info ul, .info li {
         font-size: 1.1rem;
-        color: #555;
+        color: white;
         line-height: 1.6;
     }
 
     .info strong {
-        color: #333;
+        color: #FFCA84;
     }
 
     /* Form Styles */
     .form-group label {
         font-size: 1.1rem;
         font-weight: 600;
-        color: #333;
+        color: #FFCA84;
     }
 
     .form-control {
         font-size: 1.1rem;
-        padding: 6px;
+        padding: 10px;
         margin-bottom: 20px;
         border-radius: 6px;
-        border: 1px solid #ddd;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        background-color: #222;
+        color: white;
+        border: 1px solid #FFCA84;
     }
 
     .form-control:focus {
-        border-color: #ffca84;
-        box-shadow: 0 0 8px rgba(37, 140, 251, 0.3);
+        border-color: #FFCA84;
+        box-shadow: 0 0 8px rgba(255, 202, 132, 0.8);
     }
 
-    /* Textarea Styling */
     textarea.form-control {
         height: 150px;
         resize: vertical;
@@ -206,8 +174,8 @@
 
     /* Button Styles */
     .custom-btn {
-        background-color: #ffca84;
-        color: white;
+        background-color: #FFCA84;
+        color: black;
         font-size: 1.2rem;
         padding: 14px 28px;
         border: none;
@@ -217,7 +185,7 @@
     }
 
     .custom-btn:hover {
-        background-color: #b3a474;
+        background-color: #e6b875;
         transform: translateY(-3px);
     }
 
@@ -226,18 +194,8 @@
         box-shadow: 0 0 10px rgba(255, 202, 132, 0.8);
     }
 
-    /* Accessibility Improvements */
-    label[for] {
-        cursor: pointer;
-    }
-
-    input[aria-required="true"], select[aria-required="true"], textarea[aria-required="true"] {
-        border-left: 4px solid #ffca84;
-    }
-
     hr {
-        border-top: 1px solid #ddd;
-        margin: 0;
+        border-top: 1px solid #FFCA84;
     }
 </style>
 {% endblock %}
