@@ -6,7 +6,6 @@ from authlib.integrations.flask_client import OAuth
 from dotenv import find_dotenv, load_dotenv
 from functools import wraps
 import json
-from Models.test_models import model_reply
 
 app = Flask(__name__)
 CORS(app)
@@ -42,9 +41,8 @@ def requires_auth(f):
 
 @app.route('/')
 def index():
-    # Check if 'user' is in the session and pass it to the template
-    user_info = session.get('user', None)  # Get user from session if exists
-    return render_template('index.html', user=user_info)
+    # Pass session directly to the template for flexibility
+    return render_template('index.html', session=session)
 
 @app.route('/login')
 def login():
@@ -53,7 +51,12 @@ def login():
 @app.route('/callback', methods=['GET', 'POST'])
 def callback():
     token = oauth.auth0.authorize_access_token()
+    # Debugging: Print token to check its structure
+    print("Token received:", token)
+    
+    # Store the token in the session (this includes user info)
     session["user"] = token
+    
     return redirect(url_for('maintenance_request'))  # Redirect to maintenance request after login
 
 @app.route('/logout')
