@@ -47,7 +47,7 @@ def test_reply (order, model, myTFDIF):
     largest_element = y_pred_prob.max()
     if largest_element >= (3.5/5):
         reply = [model.predict(input_counts)[0], 1]
-    elif largest_element >= (1.5/5):
+    elif largest_element >= (2.5/5):
         reply = [model.predict(input_counts)[0], 0]
     else:
         reply = [model.predict(input_counts)[0], -1]
@@ -63,9 +63,7 @@ def model_reply(student_id, building, category, description):
     elif category == "roomDF":
         model = room_model
         myTFDIF = room_vec
-    my_arr = []
-    my_arr.append(student_id)
-    my_arr.append(building)
-    my_arr.append(test_reply(description, model, myTFDIF)[0])
-    my_arr.append(test_reply(description, model, myTFDIF)[1])
-    print(my_arr) 
+    my_tup = (student_id, building, category)
+    my_tup = my_tup + (test_reply(description, model, myTFDIF)[0], str(test_reply(description, model, myTFDIF)[1]))
+    my_tup = my_tup + (description, )
+    return my_tup
