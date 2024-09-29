@@ -68,7 +68,7 @@ class MaintenanceRequestE(Base):
 
 Session = sessionmaker(bind=engine)
 
-priorities = {"0":["HVAC Problems", "Leaking Faucet", "Wall Damage"], "1":["Mold", "Broken Shower Head", "Request for Bed Lofting"], "2":["Fire Alarm", "Flooding Toilet", "Lock and Key"]}
+priorities = {"0":["HVAC Problems", "Leaky Faucet", "Wall Damage"], "1":["Mold", "Broken Shower Head", "Request for Bed Lofting"], "2":["Fire Alarm", "Flooding Toilet", "Lock and Key"]}
 
 # Load environment variables
 ENV_FILE = load_dotenv(dotenv_path="Static/auth0/.env")
@@ -129,8 +129,11 @@ def findPriority(msg):
         if msg in priorities.get(str(i)):
             # print(priorities.get(str(i)))
             return str(i)
+        
+
 
 @app.route('/maintenance-request', methods=['GET', 'POST'])
+
 @requires_auth
 def maintenance_request():
     if request.method == 'POST':
@@ -153,6 +156,7 @@ def maintenance_request():
             )
             session.add(new_request)
             session.commit()
+
             if str(result[2]) == "kitchenDF":
                 print(new_request.issue_id)
                 new_request2 = MaintenanceRequestC(
