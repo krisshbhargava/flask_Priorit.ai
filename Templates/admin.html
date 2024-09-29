@@ -1,0 +1,39 @@
+<!-- templates/admin.html -->
+{% extends 'layout.html' %}
+
+{% block title %}Admin Panel{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <section style="padding: 30px 0; text-align: center;">
+        <h2>Welcome, {{ session['user']['userinfo']['name'] if 'userinfo' in session['user'] else 'Admin' }}!</h2>
+        <p>You can view and manage maintenance requests below.</p>
+    </section>
+
+    <section style="padding: 20px 0;">
+        <h3>Maintenance Requests</h3>
+
+        <!-- Table to display maintenance requests -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Student ID</th>
+                    <th scope="col">Building</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for request in maintenance_requests %}
+                <tr>
+                    <td>{{ request['Student ID'] }}</td>
+                    <td>{{ request['Building'] }}</td>
+                    <td>{{ request['Category'] }}</td>
+                    <td>{{ request['Description'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+</div>
+{% endblock %}
