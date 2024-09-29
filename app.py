@@ -93,5 +93,26 @@ def maintenance_request():
 def success():
     return render_template('success.html')
 
+@app.route('/admin')
+@requires_auth
+def admin():
+    # Restrict access to a specific email address (krissh.bhargava@gmail.com)
+    user_email = session['user']['userinfo']['email']
+
+    if user_email != 'krissh.bhargava@gmail.com':
+        return "Unauthorized Access", 403  # HTTP 403 Forbidden
+
+    # Read maintenance requests from the CSV file
+    csv_file_path = 'maintenance_requests.csv'
+    maintenance_requests = []
+
+    if os.path.exists(csv_file_path):
+        with open(csv_file_path, mode='r') as csv_file:
+            csv_reader = csv.DictReader(csv_file)
+            for row in csv_reader:
+                maintenance_requests.append(row)
+
+    return render_template('admin.html', maintenance_requests=maintenance_requests)
+
 if __name__ == '__main__':
     app.run(debug=True)
