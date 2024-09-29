@@ -1,1 +1,301 @@
-Student ID,Building,Category,Description,Timestamp
+issue_id,student_id,building_type,department,issue_type,certainty
+1,9021427958,Harris,General Maintenance,Request for Bed Lofting,0
+2,9031997902,Grad/Fam,Kitchen/Bathroom,Leaking Faucet,0
+3,9010274177,Grad/Fam,Electricity/Safety,Fire Alarm,1
+4,9011268002,Center Street,Electricity/Safety,Mold,1
+5,9095833950,Nelson Shell,Kitchen/Bathroom,Leaking Faucet,1
+6,9052455257,Hanson,Electricity/Safety,Fire Alarm,1
+7,9081146874,Hefner/Armstrong,Kitchen/Bathroom,Leaking Faucet,1
+8,9053797171,Zbar,General Maintenance,Lock and Key,0
+9,9011820108,Fitten,General Maintenance,Request for Bed Lofting,1
+10,9068596041,Brown,General Maintenance,Wall Damage,1
+11,9035801963,Nelson Shell,Kitchen/Bathroom,Flooding Toilet,1
+12,9013112010,Hefner/Armstrong,Kitchen/Bathroom,Flooding Toilet,1
+13,9053339926,Hefner/Armstrong,Electricity/Safety,HVAC Problems,1
+14,9078461568,Glenn/Towers,Kitchen/Bathroom,Leaking Faucet,0
+15,9035052961,Glenn/Towers,General Maintenance,Lock and Key,0
+16,9037028505,Smith,Kitchen/Bathroom,Broken Shower Head,1
+17,9089952459,Woodruff,Electricity/Safety,HVAC Problems,1
+18,9021734812,Maulding,Kitchen/Bathroom,Broken Shower Head,1
+19,9049690587,Matheson/Perry,Kitchen/Bathroom,Flooding Toilet,1
+20,9044545782,Zbar,General Maintenance,Request for Bed Lofting,0
+21,9072510313,Hefner/Armstrong,Kitchen/Bathroom,Broken Shower Head,1
+22,9025699301,Hanson,Kitchen/Bathroom,Broken Shower Head,1
+23,9093770455,Folk/Caldwell,General Maintenance,Wall Damage,0
+24,9068687556,Glenn/Towers,General Maintenance,Request for Bed Lofting,1
+25,9032929385,Cloudman,General Maintenance,Request for Bed Lofting,1
+26,9019844321,Nav,General Maintenance,Wall Damage,1
+27,9062038583,Zbar,General Maintenance,Wall Damage,1
+28,9049373064,Freeman/Montag,General Maintenance,Lock and Key,1
+29,9047025768,Nav,Electricity/Safety,HVAC Problems,1
+30,9072543665,Brown,Kitchen/Bathroom,Broken Shower Head,1
+31,9054784245,Matheson/Perry,Electricity/Safety,Fire Alarm,0
+32,9084687601,Matheson/Perry,General Maintenance,Lock and Key,1
+33,9073429174,Brown,Kitchen/Bathroom,Broken Shower Head,0
+34,9081399034,Grad/Fam,Kitchen/Bathroom,Flooding Toilet,1
+35,9091005906,Hefner/Armstrong,Electricity/Safety,Fire Alarm,1
+36,9027795633,Glenn/Towers,Electricity/Safety,HVAC Problems,0
+37,9068234732,Fitten,Electricity/Safety,Mold,1
+38,9089394692,Smith,General Maintenance,Request for Bed Lofting,1
+39,9049368613,Freeman/Montag,Kitchen/Bathroom,Broken Shower Head,1
+40,9095831287,Folk/Caldwell,Kitchen/Bathroom,Broken Shower Head,1
+41,9077932956,Glenn/Towers,Kitchen/Bathroom,Broken Shower Head,1
+42,9091796494,Glenn/Towers,Kitchen/Bathroom,Leaking Faucet,1
+43,9037812740,Grad/Fam,Electricity/Safety,HVAC Problems,0
+44,9017694163,Harris,General Maintenance,Lock and Key,1
+45,9030438193,Glenn/Towers,General Maintenance,Request for Bed Lofting,1
+46,9023708113,Maulding,Kitchen/Bathroom,Broken Shower Head,1
+47,9026673343,Woodruff,General Maintenance,Request for Bed Lofting,1
+48,9011069780,Matheson/Perry,General Maintenance,Lock and Key,1
+49,9011836587,Crecine,Electricity/Safety,HVAC Problems,0
+50,9016071855,Hanson,General Maintenance,Lock and Key,1
+51,9064801062,Woodruff,Kitchen/Bathroom,Broken Shower Head,1
+52,9070889948,Harrison,Kitchen/Bathroom,Broken Shower Head,1
+53,9079414550,Smith,Kitchen/Bathroom,Flooding Toilet,1
+54,9089383264,Center Street,Kitchen/Bathroom,Broken Shower Head,0
+55,9092859058,Cloudman,General Maintenance,Request for Bed Lofting,1
+56,9066805130,Glenn/Towers,Electricity/Safety,Mold,0
+57,9082035919,Nelson Shell,Electricity/Safety,Mold,1
+58,9097636138,Freeman/Montag,General Maintenance,Wall Damage,1
+59,9021448605,Zbar,Kitchen/Bathroom,Broken Shower Head,1
+60,9099554375,Center Street,Kitchen/Bathroom,Broken Shower Head,1
+61,9016566781,Harrison,General Maintenance,Request for Bed Lofting,1
+62,9015562699,Nelson Shell,Electricity/Safety,Fire Alarm,1
+63,9049053436,Grad/Fam,Kitchen/Bathroom,Flooding Toilet,0
+64,9068413039,Cloudman,Kitchen/Bathroom,Flooding Toilet,1
+65,9060970482,Eighth Street,Electricity/Safety,Fire Alarm,1
+66,9098465774,Smith,Electricity/Safety,HVAC Problems,1
+67,9024426194,Matheson/Perry,Kitchen/Bathroom,Leaking Faucet,1
+68,9029514207,Smith,General Maintenance,Wall Damage,1
+69,9023706345,Folk/Caldwell,General Maintenance,Wall Damage,0
+70,9097491567,Harris,Electricity/Safety,Fire Alarm,0
+71,9079095618,Howell,Kitchen/Bathroom,Leaking Faucet,0
+72,9098785969,Eighth Street,Electricity/Safety,Mold,1
+73,9018266324,Fitten,Kitchen/Bathroom,Leaking Faucet,1
+74,9033096370,Glenn/Towers,Electricity/Safety,Mold,1
+75,9075306904,Cloudman,Kitchen/Bathroom,Broken Shower Head,1
+76,9024284618,Hanson,Electricity/Safety,HVAC Problems,1
+77,9021490411,Harris,General Maintenance,Request for Bed Lofting,1
+78,9033799712,Nelson Shell,General Maintenance,Lock and Key,1
+79,9052794507,Brown,General Maintenance,Lock and Key,1
+80,9024531952,Nav,General Maintenance,Lock and Key,1
+81,9060065153,Fitten,Kitchen/Bathroom,Broken Shower Head,1
+82,9060634914,Brown,Kitchen/Bathroom,Flooding Toilet,1
+83,9023455296,Grad/Fam,General Maintenance,Request for Bed Lofting,1
+84,9035969902,Fitten,Electricity/Safety,HVAC Problems,1
+85,9034780526,Woodruff,Kitchen/Bathroom,Broken Shower Head,1
+86,9055551703,Cloudman,Kitchen/Bathroom,Broken Shower Head,1
+87,9024009772,Folk/Caldwell,General Maintenance,Lock and Key,1
+88,9029618586,Cloudman,General Maintenance,Lock and Key,1
+89,9068488970,Matheson/Perry,Kitchen/Bathroom,Broken Shower Head,0
+90,9041443583,Zbar,General Maintenance,Lock and Key,0
+91,9040030169,Fulmer,Kitchen/Bathroom,Broken Shower Head,1
+92,9088403189,Woodruff,Electricity/Safety,HVAC Problems,1
+93,9052455870,Fulmer,General Maintenance,Request for Bed Lofting,1
+94,9073965004,Hanson,General Maintenance,Wall Damage,1
+95,9024239362,Freeman/Montag,Electricity/Safety,HVAC Problems,1
+96,9029096701,Woodruff,Electricity/Safety,Mold,1
+97,9083259724,Harrison,Electricity/Safety,Fire Alarm,1
+98,9083895552,Center Street,Electricity/Safety,Fire Alarm,1
+99,9065150217,Grad/Fam,Electricity/Safety,HVAC Problems,1
+100,9073906452,Freeman/Montag,Kitchen/Bathroom,Flooding Toilet,1
+101,9080100189,Crecine,General Maintenance,Wall Damage,1
+102,9013939119,Hanson,General Maintenance,Wall Damage,0
+103,9087621682,Grad/Fam,Kitchen/Bathroom,Flooding Toilet,1
+104,9038599817,Grad/Fam,Kitchen/Bathroom,Broken Shower Head,1
+105,9072107451,Maulding,Kitchen/Bathroom,Flooding Toilet,1
+106,9094070693,Nelson Shell,General Maintenance,Request for Bed Lofting,1
+107,9037312947,Nav,General Maintenance,Lock and Key,1
+108,9066298836,Eighth Street,Kitchen/Bathroom,Broken Shower Head,1
+109,9017914809,Matheson/Perry,Kitchen/Bathroom,Broken Shower Head,1
+110,9061988662,Folk/Caldwell,General Maintenance,Wall Damage,1
+111,9012637520,Harrison,Electricity/Safety,HVAC Problems,1
+112,9024655238,Smith,Electricity/Safety,Fire Alarm,1
+113,9087156969,Crecine,General Maintenance,Request for Bed Lofting,0
+114,9054469160,Grad/Fam,Electricity/Safety,Fire Alarm,1
+115,9069102093,Howell,General Maintenance,Wall Damage,1
+116,9059822553,Hefner/Armstrong,Kitchen/Bathroom,Leaking Faucet,1
+117,9069456836,Glenn/Towers,Electricity/Safety,HVAC Problems,1
+118,9035622471,Smith,General Maintenance,Wall Damage,1
+119,9041983251,Glenn/Towers,General Maintenance,Wall Damage,1
+120,9089185300,Grad/Fam,Kitchen/Bathroom,Broken Shower Head,1
+121,9011228994,Center Street,Electricity/Safety,Mold,1
+122,9076379091,Hanson,Kitchen/Bathroom,Leaking Faucet,0
+123,9044918085,Nav,Kitchen/Bathroom,Leaking Faucet,1
+124,9010035789,Maulding,Electricity/Safety,Fire Alarm,1
+125,9016927227,Center Street,Kitchen/Bathroom,Flooding Toilet,1
+126,9083514504,Eighth Street,Kitchen/Bathroom,Leaking Faucet,0
+127,9051761465,Howell,Kitchen/Bathroom,Broken Shower Head,1
+128,9060803671,Grad/Fam,Kitchen/Bathroom,Broken Shower Head,1
+129,9093771042,Harris,Kitchen/Bathroom,Flooding Toilet,1
+130,9031473134,Center Street,General Maintenance,Wall Damage,1
+131,9014818358,Grad/Fam,Electricity/Safety,HVAC Problems,1
+132,9050596206,Howell,Kitchen/Bathroom,Broken Shower Head,1
+133,9026893528,Nelson Shell,Electricity/Safety,HVAC Problems,1
+134,9089374305,Woodruff,Kitchen/Bathroom,Flooding Toilet,1
+135,9056276079,Maulding,Electricity/Safety,HVAC Problems,1
+136,9047655950,Fulmer,Kitchen/Bathroom,Leaking Faucet,1
+137,9095074275,Eighth Street,Electricity/Safety,HVAC Problems,1
+138,9031043507,Matheson/Perry,General Maintenance,Request for Bed Lofting,0
+139,9053436400,Hefner/Armstrong,Electricity/Safety,HVAC Problems,1
+140,9054272790,Eighth Street,Electricity/Safety,Mold,1
+141,9085156691,Maulding,Kitchen/Bathroom,Broken Shower Head,1
+142,9019148802,Folk/Caldwell,Electricity/Safety,Mold,1
+143,9078684077,Fulmer,General Maintenance,Request for Bed Lofting,1
+144,9063751689,Crecine,Kitchen/Bathroom,Flooding Toilet,1
+145,9086479121,Woodruff,Kitchen/Bathroom,Leaking Faucet,1
+146,9036847379,Matheson/Perry,General Maintenance,Wall Damage,0
+147,9015820179,Folk/Caldwell,Kitchen/Bathroom,Flooding Toilet,0
+148,9038177858,Cloudman,Electricity/Safety,Fire Alarm,0
+149,9065341425,Maulding,Kitchen/Bathroom,Flooding Toilet,1
+150,9059846920,Harris,Electricity/Safety,Mold,1
+151,9077124123,Matheson/Perry,Electricity/Safety,HVAC Problems,1
+152,9025352168,Matheson/Perry,Electricity/Safety,HVAC Problems,1
+153,9061377301,Cloudman,Kitchen/Bathroom,Leaking Faucet,1
+154,9069313583,Fitten,Kitchen/Bathroom,Broken Shower Head,1
+155,9053977731,Folk/Caldwell,Electricity/Safety,Mold,1
+156,9055438180,Matheson/Perry,Electricity/Safety,Fire Alarm,1
+157,9086870620,Maulding,Electricity/Safety,Mold,1
+158,9014690722,Fulmer,Kitchen/Bathroom,Flooding Toilet,1
+159,9062876079,Freeman/Montag,Kitchen/Bathroom,Leaking Faucet,1
+160,9017490384,Brown,Electricity/Safety,Mold,0
+161,9041972475,Nav,Kitchen/Bathroom,Leaking Faucet,1
+162,9053449480,Eighth Street,General Maintenance,Wall Damage,1
+163,9068256627,Nav,Electricity/Safety,HVAC Problems,1
+164,9022826542,Freeman/Montag,Kitchen/Bathroom,Broken Shower Head,0
+165,9011287021,Glenn/Towers,General Maintenance,Wall Damage,1
+166,9079472356,Brown,General Maintenance,Wall Damage,1
+167,9028933129,Nelson Shell,Kitchen/Bathroom,Flooding Toilet,0
+168,9070867207,Freeman/Montag,Electricity/Safety,Fire Alarm,1
+169,9077191560,Fitten,Electricity/Safety,Fire Alarm,1
+170,9036821579,Cloudman,Kitchen/Bathroom,Leaking Faucet,1
+171,9046284381,Maulding,General Maintenance,Request for Bed Lofting,1
+172,9060888681,Smith,General Maintenance,Lock and Key,0
+173,9069256694,Harris,Electricity/Safety,Fire Alarm,1
+174,9077956210,Nelson Shell,Kitchen/Bathroom,Leaking Faucet,1
+175,9028182682,Hanson,Electricity/Safety,HVAC Problems,1
+176,9037840747,Eighth Street,Kitchen/Bathroom,Broken Shower Head,1
+177,9048033860,Grad/Fam,Kitchen/Bathroom,Broken Shower Head,1
+178,9072916712,Cloudman,Kitchen/Bathroom,Leaking Faucet,1
+179,9022984339,Crecine,Kitchen/Bathroom,Leaking Faucet,1
+180,9082650155,Freeman/Montag,General Maintenance,Wall Damage,1
+181,9055406251,Hanson,Electricity/Safety,HVAC Problems,0
+182,9083945097,Howell,General Maintenance,Request for Bed Lofting,1
+183,9094864829,Center Street,Electricity/Safety,Fire Alarm,1
+184,9039177349,Eighth Street,General Maintenance,Request for Bed Lofting,1
+185,9065467406,Center Street,Electricity/Safety,HVAC Problems,1
+186,9091643604,Fitten,Electricity/Safety,HVAC Problems,0
+187,9087259757,Eighth Street,Kitchen/Bathroom,Leaking Faucet,1
+188,9066774536,Harrison,General Maintenance,Request for Bed Lofting,0
+189,9027675395,Woodruff,General Maintenance,Wall Damage,1
+190,9074927275,Folk/Caldwell,Electricity/Safety,Mold,1
+191,9072724605,Cloudman,General Maintenance,Request for Bed Lofting,1
+192,9067879811,Nelson Shell,Kitchen/Bathroom,Leaking Faucet,1
+193,9037294554,Brown,General Maintenance,Wall Damage,1
+194,9025911114,Matheson/Perry,Electricity/Safety,HVAC Problems,1
+195,9014482534,Matheson/Perry,Electricity/Safety,HVAC Problems,1
+196,9017768283,Brown,Kitchen/Bathroom,Broken Shower Head,1
+197,9067044680,Center Street,Kitchen/Bathroom,Leaking Faucet,1
+198,9025228455,Harrison,Electricity/Safety,Fire Alarm,1
+199,9071697397,Nav,Electricity/Safety,Fire Alarm,1
+200,9050505784,Nelson Shell,General Maintenance,Lock and Key,1
+201,9037267967,Smith,Electricity/Safety,Mold,1
+202,9024687667,Folk/Caldwell,Kitchen/Bathroom,Broken Shower Head,1
+203,9033921759,Harrison,Electricity/Safety,Mold,1
+204,9041611942,Brown,Kitchen/Bathroom,Flooding Toilet,1
+205,9034625952,Harris,Electricity/Safety,Mold,1
+206,9068812622,Smith,Electricity/Safety,HVAC Problems,1
+207,9073731916,Glenn/Towers,Electricity/Safety,HVAC Problems,1
+208,9038091521,Hanson,Kitchen/Bathroom,Flooding Toilet,1
+209,9098314422,Zbar,Electricity/Safety,HVAC Problems,1
+210,9058264196,Brown,General Maintenance,Lock and Key,1
+211,9070154318,Matheson/Perry,Electricity/Safety,HVAC Problems,1
+212,9056966263,Folk/Caldwell,Electricity/Safety,Fire Alarm,1
+213,9064613215,Howell,Kitchen/Bathroom,Broken Shower Head,1
+214,9089554870,Smith,General Maintenance,Wall Damage,1
+215,9099348456,Cloudman,Electricity/Safety,Fire Alarm,1
+216,9092884207,Freeman/Montag,Electricity/Safety,Fire Alarm,1
+217,9072397529,Hefner/Armstrong,General Maintenance,Lock and Key,1
+218,9012369239,Fulmer,Electricity/Safety,Fire Alarm,1
+219,9063399512,Woodruff,Electricity/Safety,HVAC Problems,1
+220,9087156587,Harrison,Kitchen/Bathroom,Broken Shower Head,1
+221,9054428355,Crecine,General Maintenance,Request for Bed Lofting,1
+222,9016603333,Folk/Caldwell,Electricity/Safety,Mold,1
+223,9094357401,Woodruff,General Maintenance,Lock and Key,1
+224,9069822329,Brown,General Maintenance,Request for Bed Lofting,0
+225,9044330699,Smith,Electricity/Safety,Fire Alarm,1
+226,9060347875,Brown,General Maintenance,Request for Bed Lofting,1
+227,9067457500,Matheson/Perry,Electricity/Safety,Fire Alarm,0
+228,9029112740,Crecine,General Maintenance,Request for Bed Lofting,0
+229,9087266384,Maulding,Kitchen/Bathroom,Flooding Toilet,1
+230,9079413167,Grad/Fam,General Maintenance,Wall Damage,1
+231,9096935241,Eighth Street,Kitchen/Bathroom,Broken Shower Head,0
+232,9035786582,Grad/Fam,Electricity/Safety,Fire Alarm,1
+233,9014616761,Folk/Caldwell,Kitchen/Bathroom,Broken Shower Head,0
+234,9019896858,Howell,General Maintenance,Wall Damage,1
+235,9060675990,Fulmer,General Maintenance,Wall Damage,0
+236,9048415405,Brown,Kitchen/Bathroom,Leaking Faucet,1
+237,9090667015,Fulmer,Kitchen/Bathroom,Flooding Toilet,1
+238,9097662165,Harris,Electricity/Safety,Fire Alarm,1
+239,9082879836,Brown,Electricity/Safety,Mold,1
+240,9095130893,Harrison,Kitchen/Bathroom,Leaking Faucet,1
+241,9057263593,Hefner/Armstrong,General Maintenance,Lock and Key,1
+242,9091506941,Glenn/Towers,Electricity/Safety,Fire Alarm,0
+243,9047269682,Maulding,General Maintenance,Lock and Key,1
+244,9081769753,Center Street,General Maintenance,Lock and Key,0
+245,9076173858,Crecine,Electricity/Safety,Mold,1
+246,9062457259,Nav,Kitchen/Bathroom,Broken Shower Head,1
+247,9089576567,Howell,General Maintenance,Wall Damage,1
+248,9015467011,Zbar,General Maintenance,Lock and Key,1
+249,9041099961,Crecine,Kitchen/Bathroom,Broken Shower Head,1
+250,9074166445,Nav,General Maintenance,Lock and Key,1
+251,9051083124,Fitten,Kitchen/Bathroom,Leaking Faucet,1
+252,9024202290,Grad/Fam,Electricity/Safety,Mold,1
+253,9050198379,Howell,Kitchen/Bathroom,Flooding Toilet,1
+254,9041352877,Hefner/Armstrong,Electricity/Safety,Fire Alarm,0
+255,9057138152,Eighth Street,Kitchen/Bathroom,Leaking Faucet,1
+256,9087275929,Hefner/Armstrong,Electricity/Safety,HVAC Problems,1
+257,9042731812,Howell,Kitchen/Bathroom,Broken Shower Head,1
+258,9099665122,Grad/Fam,Kitchen/Bathroom,Flooding Toilet,1
+259,9018249301,Cloudman,Kitchen/Bathroom,Leaking Faucet,0
+260,9043419183,Fitten,Electricity/Safety,Fire Alarm,1
+261,9081087073,Woodruff,General Maintenance,Request for Bed Lofting,1
+262,9013184857,Woodruff,Electricity/Safety,HVAC Problems,1
+263,9047080866,Nelson Shell,General Maintenance,Lock and Key,1
+264,9059921502,Glenn/Towers,General Maintenance,Wall Damage,1
+265,9091755756,Matheson/Perry,General Maintenance,Wall Damage,1
+266,9019717527,Folk/Caldwell,General Maintenance,Request for Bed Lofting,0
+267,9026747968,Freeman/Montag,Kitchen/Bathroom,Leaking Faucet,1
+268,9083076318,Woodruff,Electricity/Safety,Fire Alarm,1
+269,9041321572,Smith,Kitchen/Bathroom,Flooding Toilet,0
+270,9034592408,Freeman/Montag,Kitchen/Bathroom,Broken Shower Head,0
+271,9011740796,Grad/Fam,Electricity/Safety,Fire Alarm,1
+272,9085636630,Crecine,Electricity/Safety,Mold,1
+273,9071636549,Maulding,General Maintenance,Lock and Key,1
+274,9065855542,Fulmer,Electricity/Safety,Mold,1
+275,9051183300,Zbar,Electricity/Safety,Fire Alarm,1
+276,9028223267,Fitten,Electricity/Safety,HVAC Problems,1
+277,9073562646,Hanson,General Maintenance,Lock and Key,1
+278,9017137299,Brown,Electricity/Safety,Fire Alarm,1
+279,9057681998,Nelson Shell,Electricity/Safety,HVAC Problems,1
+280,9012054535,Glenn/Towers,Kitchen/Bathroom,Leaking Faucet,1
+281,9023312707,Maulding,Electricity/Safety,Fire Alarm,1
+282,9054225771,Fitten,Electricity/Safety,Mold,1
+283,9068794635,Harris,General Maintenance,Wall Damage,1
+284,9019492196,Matheson/Perry,Electricity/Safety,HVAC Problems,1
+285,9030661694,Matheson/Perry,Electricity/Safety,Fire Alarm,1
+286,9062070554,Brown,Electricity/Safety,Fire Alarm,1
+287,9033852859,Folk/Caldwell,General Maintenance,Request for Bed Lofting,1
+288,9064905535,Brown,Electricity/Safety,HVAC Problems,1
+289,9087496467,Maulding,Kitchen/Bathroom,Leaking Faucet,1
+290,9041338782,Fitten,Electricity/Safety,HVAC Problems,1
+291,9027034376,Zbar,Kitchen/Bathroom,Leaking Faucet,1
+292,9033005406,Center Street,Kitchen/Bathroom,Broken Shower Head,0
+293,9016639595,Woodruff,Electricity/Safety,Fire Alarm,1
+294,9073731138,Center Street,General Maintenance,Lock and Key,1
+295,9070223674,Fulmer,Kitchen/Bathroom,Flooding Toilet,0
+296,9027008636,Brown,Electricity/Safety,Fire Alarm,1
+297,9087449328,Hanson,General Maintenance,Wall Damage,1
+298,9045838417,Maulding,General Maintenance,Request for Bed Lofting,1
+299,9044840953,Brown,General Maintenance,Lock and Key,1
+300,9058590946,Grad/Fam,General Maintenance,Wall Damage,0
